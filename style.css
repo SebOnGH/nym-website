@@ -1,0 +1,33 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#resultats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  border-radius: 0.5rem;
+}
+
+#resultats p {
+  margin: 0;
+}
+
+#resultats p:nth-child(2n+1) {
+  font-weight: bold;
+}
+
+#resultats div {
+  background-color: #FF8800;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
