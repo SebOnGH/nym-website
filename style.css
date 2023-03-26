@@ -1,33 +1,19 @@
-body {
-  background-color: #111;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-h1 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+.api-result {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 45%;
 }
 
-#resultats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  border-radius: 0.5rem;
+#report-result {
+  background-color: lightblue;
 }
 
-#resultats p {
-  margin: 0;
-}
-
-#resultats p:nth-child(2n+1) {
-  font-weight: bold;
-}
-
-#resultats div {
-  background-color: #FF8800;
-  padding: 1rem;
-  border-radius: 0.25rem;
+#status-result {
+  background-color: lightgreen;
 }
