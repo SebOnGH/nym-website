@@ -1,22 +1,3 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.api-result {
-  margin: 20px;
-  border: 1px solid black;
-  padding: 10px;
-  width: 45%;
-}
-
-#report-result {
-  background-color: lightblue;
-}
-
-#status-result {
-  background-color: lightgreen;
-}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #3b3b3b;
@@ -25,20 +6,41 @@ body {
 }
 
 .container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+ display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   #display: flex;
+ #flex-wrap: wrap;
+   #justify-content: flex-start;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+ .container {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+ }
+}
+
+.container-other {
+ display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   #display: flex;
+ #flex-wrap: wrap;
+   #justify-content: flex-start;
 }
 
 .box {
-   background-color: #242424;
-   width: 30%;
+ background-color: #242424;
+#    width: 30%;
    margin: 10px;
    padding: 10px;
    text-align: left;
    box-shadow: 2px 2px 5px #1c1c1c;
    border-radius: 5px; 
-}
+#}
 
 .box h2 {
    margin-top: 0;
