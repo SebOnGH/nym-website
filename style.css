@@ -14,6 +14,12 @@ body {
    #justify-content: flex-start;
 }
 
+.container-other {
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
 /* try to resize the screen */
 @media screen and (max-width: 768px) {
  .container {
