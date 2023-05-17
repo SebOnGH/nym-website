@@ -21,6 +21,14 @@ body {
    grid-template-columns: 1fr;
    grid-template-rows: auto;
  }
+ .container-other {
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    #display: flex;
+  #flex-wrap: wrap;
+    #justify-content: flex-start;
+ }
  .topnav a {
    position: relative;
    float: left;
@@ -30,15 +38,6 @@ body {
    text-decoration: none;
    font-size: 35px;
  }
-}
-
-.container-other {
- display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: auto;
-   #display: flex;
- #flex-wrap: wrap;
-   #justify-content: flex-start;
 }
 
 .box {
