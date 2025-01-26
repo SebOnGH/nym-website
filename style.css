@@ -1,8 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #3b3b3b;
+  background-color: #2b383a;
   margin: 0;
-  color: #d1cfcd;
+  color: #fefffe;
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
  .topnav a {
    position: relative;
    float: left;
-   color: #d1cfcd;
+   color: #fefffe;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -47,7 +47,7 @@ body {
 }
 
 .box {
- background-color: #242424;
+ background-color: #252a2d;
 #    width: 30%;
    margin: 10px;
    padding: 10px;
@@ -73,7 +73,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
- background-color: #242424 ;
+ background-color: #252a2d ;
  overflow: hidden;
  text-align: center;
  justify-content: center;
@@ -84,7 +84,7 @@ body {
 .topnav a {
  position: relative;
  float: left;
- color: #d1cfcd;
+ color: #fefffe;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
@@ -94,13 +94,13 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
  background-color: #ddd;
- color: #242424;
+ color: #252a2d;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
  background-color: #fa7e02;
- color: #242424;
+ color: #252a2d;
 }
 
 #watermark {
